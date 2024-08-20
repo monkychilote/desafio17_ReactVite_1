@@ -1,18 +1,19 @@
-import React from "react";
+//import Home from "./componentes/Home";
 import Navbar from "./componentes/Navbar";
-import Home from "./componentes/Home";
+import Cart from "./componentes/Cart";
 import Footer from "./componentes/Footer";
-import Register from "./componentes/Register";
-import Login from "./componentes/Login";
+
+// import LoginPage from "./components/Login";
+// import RegisterPage from "./components/Register";
 
 const App = () => {
   return (
     <div>
       <Navbar />
       {/*<Home />*/}
-      {/* Descomenta el componente necesario según el formulario que quieras mostrar */}
-      {/*<Register />*/}
-      <Login />
+      {/* <RegisterPage /> */}
+      {/* <LoginPage /> */}
+      <Cart />
       <Footer />
     </div>
   );
